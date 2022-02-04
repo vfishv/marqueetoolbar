@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "org.mightyfrog.marqueetoolbardemo"
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 30
         versionCode 1
         versionName "$version_name"
     }
@@ -23,8 +23,8 @@ android {
 }
 
 dependencies {
-    implementation "com.android.support:appcompat-v7:$support_lib_version"
-    implementation "com.android.support:design:$support_lib_version"
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
     implementation "org.mightyfrog.marqueetoolbar:marqueetoolbar:1.0.2"
 //    implementation project(":marqueetoolbar")
 }
